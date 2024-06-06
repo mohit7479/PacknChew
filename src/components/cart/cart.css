@@ -1,0 +1,61 @@
+/* Tailwind CSS */
+
+.max-w-screen-md {
+    max-width: 800px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.list-none {
+    list-style-type: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.sm\:w-1/2 {
+    width: 50%;
+}
+
+.md\:w-1/4 {
+    width: 25%;
+}
+
+.p-2 {
+    padding: 0.5rem;
+}
+
+.box-border {
+    box-sizing: border-box;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .md\:w-1/4 {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .md\:w-1/4 {
+        width: 100%;
+    }
+}
